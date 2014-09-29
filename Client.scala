@@ -94,7 +94,7 @@ class Worker extends Actor {
     var numberOfStrings = 0
     var eachString = 0
     for (l <- 0 until 100000) {
-      var input: String = "vishwanath"
+      var input: String = "neehar"
       for (i <- 0 until stringlen) {
         var k: Int = Random.nextInt(pattern.length())
         input += pattern.charAt(k)
